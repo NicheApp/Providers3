@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/form1">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="276dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="66dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/phoneno"
+        android:layout_width="276dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="66dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="Phone No"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <EditText
+        android:id="@+id/add"
+        android:layout_width="276dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="68dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneno" />
+
+    <EditText
+        android:id="@+id/pin"
+        android:layout_width="276dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="68dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="Area Pincode"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add" />
+
+    <EditText
+        android:id="@+id/occ"
+        android:layout_width="276dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="68dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:hint="Occupation"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pin" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="289dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="289dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="60dp"
+        android:background="@color/colorPrimary"
+        android:text="Submit"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/occ" />
+</androidx.constraintlayout.widget.ConstraintLayout>

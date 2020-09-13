@@ -1,0 +1,11 @@
+type Todo @model {
+  id: ID!
+  name: String!
+ Latitude: String
+Longitude: String
+PhoneNo: String
+Occupation: String
+Jobs: Int
+Address:String
+sid:String
+}
