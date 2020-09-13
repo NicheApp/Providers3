@@ -1,7 +1,7 @@
 # Providers 
 
 ### Go TO CODE - https://github.com/NicheApp/Providers3/tree/Niche
-## GET A JOB PROVIDE A JOB MAKE THING EASIER  
+## GET A JOB PROVIDE A JOB MAKE THINGS EASIER  
 <p align="center">
   <img src="https://user-images.githubusercontent.com/47109963/93013438-10a80d00-f5c6-11ea-8299-71fbb054db54.jpeg" width="300" title="hover text"> 
   <img src="https://user-images.githubusercontent.com/47109963/93013437-100f7680-f5c6-11ea-9f5d-cd23c66a2063.jpeg" width="300" title="hover text">
